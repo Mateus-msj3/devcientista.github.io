@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mateus Souza</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <style>
+        p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+
+        .foto-perfil {
+            height: 100%;
+            max-width: auto;
+            border-radius: 50%;
+        }
+
+        .icones {
+            padding-left: 5px;
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+        }
+
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #0f0f0f
+        }
+
+        .paragrafoBrancos {
+            color: white !important;
+        }
+
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        p {
+            color: black !important;
+        }
+
+        .corPrimaria {
+            background-color: #2c3e50;
+        }
+
+        .itemMenu {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#101111">
+        <a class="navbar-brand" href="" style=color:white>Dev_Cientista</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+               
+                <li>
+                    <a href="#projetos" class="nav-link" style=color:white>Projetos</a>
+                </li>    
+                <li>
+                    <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#contato" class="nav-link" style=color:white> Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img src="img/Foto_perfil.jpg" class="foto-perfil" alt="Responsive image">
+            <h1 class="jumbotron-heading" style="color:white;text-transform: uppercase;">Mateus Souza</h1>
+            <p class="lead" style="color:white !important;">Analista e Desenvolvedor de Sistemas - Criador de Contéudo -
+                Blogger
+            </p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2">Contato</a>
+            </p>
+            <a href="https://github.com/Mateus-msj3" target="_blank"><i style="color:white" class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mateus-souza-de-jesus/" target="_blank"><i style="color:white"
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/mateus_souza_msj3/" target="_blank"><i style="color:white"
+                    class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="album py-5 bg-light " id="projetos">
+            <div class="container">
+                <h2 class="text-center jumbotron-heading titulosVerdes" id="projetos">Projetos</h2>
+                
+                <div class="row">
+
+                    <div class="col-sm">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="img/home.png" data-holder-rendered="true"
+                            style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">ORGANIZER IDEAS</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Este programa tem como objetivo ser uma ferramenta prática, onde o
+                                usuario pode anotar ideias de projetos na area da programação, e através de um click num
+                                botão escolher uma pasta onde o mesmo poderá salvar as principais informações desta idea
+                                num arquivo .txt.
+                            </p>
+                            <ul>
+                                <li>Python</li>
+                                <li>PyQt5</li>
+                                <li>Sqlite3</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/Mateus-msj3/Organizer_Ideas" target="_blank" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="img/home_bank.png" data-holder-rendered="true"
+                            style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">BANK_OO DESKTOP-APP</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Esse é um projeto que eu desenvolvi visando aplicar os conhecimentos
+                                adquiridos na área de orientação a objetos, design de interface, banco de dados e
+                                operações de um CRUD na liguangem python.
+                            </p>
+                            <ul>
+                                <li>Python</li>
+                                <li>PyQt5</li>
+                                <li>Sqlite3</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/Mateus-msj3/Python_Bank_OO" target="_blank" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="img/home_tube.png" data-holder-rendered="true"
+                            style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">PYTHON_YOUTUBE_DOWNLOADS</p>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Este programa tem como objetivo ser uma ferramenta prática para dar
+                                praticidade quando queremos baixar algum arquivo do youtube, para assistirmos offline.
+                            </p>
+                            <ul>
+                                <li>Python</li>
+                                <li>Pytube3</li>
+                                <li>PyQt5</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/Mateus-msj3/Python_Youtube_Download" target="_blank" class="btn btn-primary">Ler mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="btn-group">
+                        <a href="https://github.com/Mateus-msj3?tab=repositories" class="btn btn-primary">Ver todos os Projetos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="lead paragrafoBrancos">Olá sejam bem vindos ao Blog Dev_Cientista, meu nome é Mateus Souza e sou
+                formado em Analise e Desenvolvimento de Sistemas. Sou grande entusiasta por tecnologia e atualmente
+                tenho alguns softwares
+                desenvolvidos na linguagem Python. A área Back-end e Ciência de dados serão os destques deste blog. </p>
+        </div>
+    </section>
+
+    <section Id="contato" class="corPrimaria">
+        <div class="corPrimaria">
+            <div class="container-fluid">
+                <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
+                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
+                        href="mailto:seuemail@hotmail.com">mateussouzaads@outlook.com👈</a></h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center" style="background-color:#000000;padding:0px; margin:0px">
+        <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright 
+            Mateus Souza®
+        </p>
+    </footer>
+
+</body>
+
+</html>
